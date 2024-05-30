@@ -139,16 +139,63 @@ input[type="range"]::-ms-thumb{
     color: blue;
 }
 
-.contact{
+.contact-icon{
     float: left;
-
+    width: 200%;
+    box-sizing: border-box;
 }
 
 .contact-info{
     float: right;
-    margin-top: 60px;
+    width: 70%;
+    box-sizing: border-box;
 }
 
 .contact-info p{
-    padding-bottom: 80px;
+    padding-bottom: 65px;
+    font-size: large;
+    font-weight: bold;
 }
+
+
+/* ----------------------------------------*/
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .line {
+    width: 5px;
+    background-color: #555;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px; /* Half the height of the circle */
+    bottom: 20px; /* Half the height of the circle */
+  }
+
+
+
+  .circle {
+    height: 50px;
+    width: 50px;
+    background-color: #e71c1c;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .line {
+    width: 5px;
+    background-color: #292727;
+    position: absolute;
+    left: 110%;
+    transform: translateX(-50%);
+    top: 20px; /* Half the height of the circle */
+    bottom: 20px; /* Half the height of the circle */
+  }
