@@ -138,3 +138,13 @@ input[type="range"]::-ms-thumb{
 .sidebar h3 button:hover{
     color: blue;
 }
+
+.contact{
+    float: left;
+
+}
+
+.contact-info{
+    float: right;
+    margin: ;
+}
