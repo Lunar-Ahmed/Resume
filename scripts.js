@@ -3,7 +3,7 @@ var txt = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
 var speed = 50;
 
 function typeWriter() {
-    if (i < txt.lenght) {
+    if (i < txt.length) {
         document.getElementById("demo").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);

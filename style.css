@@ -126,3 +126,15 @@ input[type="range"]::-ms-thumb{
 .lan .eng{
     padding-bottom: 20px;
 }
+
+.sidebar h3 button{
+    background: inherit;
+    border: none;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+.sidebar h3 button:hover{
+    color: blue;
+}
