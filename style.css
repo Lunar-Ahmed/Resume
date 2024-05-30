@@ -146,5 +146,9 @@ input[type="range"]::-ms-thumb{
 
 .contact-info{
     float: right;
-    margin: ;
+    margin-top: 60px;
+}
+
+.contact-info p{
+    padding-bottom: 80px;
 }
