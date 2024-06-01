@@ -141,13 +141,13 @@ input[type="range"]::-ms-thumb{
 
 .contact-icon{
     float: left;
-    width: 200%;
+    width: 20%;
     box-sizing: border-box;
 }
 
 .contact-info{
     float: right;
-    width: 70%;
+    width: 40%;
     box-sizing: border-box;
 }
 
@@ -155,47 +155,42 @@ input[type="range"]::-ms-thumb{
     padding-bottom: 65px;
     font-size: large;
     font-weight: bold;
+    max-width: fit-content;
+}
+
+.contact{
+    width: 30vw;
 }
 
 
 /* ----------------------------------------*/
-
-.circle {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-    border-radius: 50%;
-    display: inline-block;
+.container {
     position: relative;
+    width: 300px;
   }
   
-  .line {
-    width: 5px;
-    background-color: #555;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 20px; /* Half the height of the circle */
-    bottom: 20px; /* Half the height of the circle */
-  }
-
-
-
   .circle {
-    height: 50px;
-    width: 50px;
-    background-color: #e71c1c;
+    width: 15px;
+    height: 15px;
+    background-color: #555;
     border-radius: 50%;
-    display: inline-block;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
   }
   
   .line {
-    width: 5px;
-    background-color: #292727;
     position: absolute;
-    left: 110%;
-    transform: translateX(-50%);
-    top: 20px; /* Half the height of the circle */
-    bottom: 20px; /* Half the height of the circle */
+    width: 3px;
+    background-color: #555;
+    left: 7px;
+    top: 50px;
+    bottom: -50px;
+    z-index: 0;
+  }
+  
+  .text {
+    margin-left: 40px;
+    line-height: 30px;
   }
