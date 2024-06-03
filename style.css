@@ -11,9 +11,20 @@ body{
     position: absolute;
 }
 
+.div-line{
+    color: whitesmoke;
+    height: 120%;
+    margin-top: 10px;
+    left: 20%;
+    margin-left: -3px;
+    top: 15%;
+    bottom: -80px;
+}
+
 .sidebar h3{
     background:deeppink;
     text-align: center;
+    width: 90%;
 }
 
 .sidebar input{
@@ -26,6 +37,14 @@ body{
     color: white;
     box-sizing: border-box;
     position: relative;
+}
+
+.menu-info{
+    border-left: 5px solid pink;
+    width: 30%;
+    align-self: center;
+    margin-left: 31%;
+    /* border-right: 5px solid pink; */
 }
 
 
@@ -84,7 +103,7 @@ input[type="range"]::-ms-thumb{
     background-color: green;
     /* border-radius: 10px; */
     color: aqua;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
 
 .hob i{
@@ -119,8 +138,9 @@ input[type="range"]::-ms-thumb{
 }
   
 .progress{
-    width: 80%;
-    border-radius: 10px;
+    width: 70%;
+    /* border-radius: 10px; */
+    margin-right: 45px;
 }
 
 .lan .eng{
