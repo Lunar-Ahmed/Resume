@@ -172,7 +172,7 @@ input[type="range"]::-ms-thumb{
   .circle {
     width: 15px;
     height: 15px;
-    background-color: #555;
+    background-color: deeppink;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -185,12 +185,12 @@ input[type="range"]::-ms-thumb{
     width: 3px;
     background-color: #555;
     left: 7px;
-    top: 50px;
-    bottom: -50px;
+    top: 15px;
+    bottom: -80px;
     z-index: 0;
   }
   
   .text {
-    margin-left: 40px;
+    margin-left: 25px;
     line-height: 30px;
   }
