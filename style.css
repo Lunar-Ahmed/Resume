@@ -185,7 +185,8 @@ img{
 .job{
     float: right;
     background: blue;
-    width: 50px;
+    width: 80%;
+    height: 60%;
 }
 /*-------MAIN CONTENT ENDS------*/
 
