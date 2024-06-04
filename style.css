@@ -176,6 +176,7 @@ img{
     /* background: blue; */
     height: 100%;
     margin-top: 40px;
+    background-color: brown;
 }
 
 .main-content i{
@@ -185,8 +186,9 @@ img{
 .job{
     float: right;
     background: blue;
-    width: 80%;
+    width: 75%;
     height: 60%;
+    margin-b: 50px;
 }
 /*-------MAIN CONTENT ENDS------*/
 
