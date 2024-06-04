@@ -188,7 +188,12 @@ img{
     background: blue;
     width: 75%;
     height: 60%;
-    margin-b: 50px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.company{
+    
 }
 /*-------MAIN CONTENT ENDS------*/
 
