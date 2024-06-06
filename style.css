@@ -191,6 +191,13 @@ img{
     margin-bottom: 200px;
     box-sizing: border-box;
 }
+.job p{
+    padding-bottom: 20px;
+}
+
+.job h3{
+    padding-bottom: 0;
+}
 
 .company{
     box-sizing: border-box;
