@@ -187,13 +187,14 @@ img{
     float: right;
     background: blue;
     width: 75%;
-    height: 60%;
-    margin-bottom: 150px;
     box-sizing: border-box;
+    margin-bottom: 200px;
 }
 
 .company{
-    
+    box-sizing: border-box;
+    background-color: coral;
+    width: 20%;
 }
 /*-------MAIN CONTENT ENDS------*/
 
