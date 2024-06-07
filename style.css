@@ -42,9 +42,9 @@ body{
 
 /*-------SIDE BAR------*/
 img{
-    border-radius: 200px;
-    height: 40%;
-    width: 140px;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
     border: 5px solid white;
     margin-left: 0;
     margin-left: 10px;
