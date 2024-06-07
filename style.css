@@ -176,7 +176,7 @@ img{
     /* background: blue; */
     height: 100%;
     margin-top: 40px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .exp i{
@@ -185,7 +185,7 @@ img{
 
 .job{
     float: right;
-    background: blue;
+    /* background: blue; */
     width: 75%;
     box-sizing: border-box;
     margin-bottom: 200px;
@@ -201,7 +201,7 @@ img{
 
 .company{
     box-sizing: border-box;
-    background-color: coral;
+    /* background-color: coral; */
     width: 20%;
     float: left;
 
@@ -213,8 +213,9 @@ img{
     /* background: blue; */
     /* margin-top: 40px; */
     width: 30%;
-    background-color: brown;
-    margin-left: 35%;
+    /* background-color: brown; */
+    margin-left: 32%;
+    margin-top: 50px;
 }
 /*-------MAIN CONTENT ENDS------*/
 
