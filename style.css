@@ -41,13 +41,22 @@ body{
 
 
 /*-------SIDE BAR------*/
-img{
+/* img{
     border-radius: 50%;
     height: auto;
     width: 100%;
     border: 5px solid white;
     margin-left: 0;
     margin-left: 10px;
+} */
+
+.image {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar{
