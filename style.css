@@ -183,12 +183,24 @@ img {
     /* width: 65vw; */
     /* margin-top: ; */
     /* background: blue; */
-    height: 100%;
+    height: 70%;
     margin-top: 40px;
     /* background-color: brown; */
 }
 
-.exp i{
+.main-contents{
+    float: right;
+    width: 68vw;
+    box-sizing: border-box;
+    /* width: 65vw; */
+    /* margin-top: ; */
+    /* background: blue; */
+    /* height: 100%; */
+    margin-top: 0px;
+    /* background-color: brown; */
+}
+
+.exp i, .edu i{
     font-size:xx-large;
 }
 
@@ -225,6 +237,13 @@ img {
     /* background-color: brown; */
     margin-left: 32%;
     margin-top: 50px;
+}
+
+.edu{
+    width: 30%;
+    /* background-color: brown; */
+    margin-left: 2%;
+    margin-top: 5px;
 }
 /*-------MAIN CONTENT ENDS------*/
 
