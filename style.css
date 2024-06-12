@@ -185,7 +185,7 @@ img {
     /* background: blue; */
     height: 70%;
     margin-top: 10px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .main-contents{
@@ -242,7 +242,7 @@ img {
 .edu{
     width: 30%;
     /* background-color: brown; */
-    margin-left: 1%;
+    margin-left: 10%;
     margin-top: 5px;
 }
 /*-------MAIN CONTENT ENDS------*/
