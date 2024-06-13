@@ -233,7 +233,7 @@ img {
     /* margin-top: ; */
     /* background: blue; */
     /* margin-top: 40px; */
-    width: 30%;
+    width: 50%;
     /* background-color: brown; */
     margin-left: 32%;
     margin-top: 50px;
@@ -290,6 +290,20 @@ img {
     width: 30vw;
 }
 
+.text-with-line {
+    display: flex; /* Use flexbox to align text and line */
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align text to the left */
+  }
+
+  .text-with-line::after {
+    content: ''; /* The content of ::after is empty, used to create the line */
+    /* flex-grow: 1; Allow the line to take up the remaining space */
+    width: 30%;
+    margin-left: 0.5rem; /* Space between the text and the line */
+    height: 2px; /* Thickness of the line */
+    background-color: deeppink; /* Color of the line */
+  }
 
 /* ----------------------------------------*/
 /* 
