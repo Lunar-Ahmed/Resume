@@ -52,11 +52,12 @@ body{
 
 img {
     border-radius: 50%;
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px solid white;
 }
 
 .sidebar{
@@ -290,13 +291,13 @@ img {
     width: 30vw;
 }
 
-.text-with-line {
+.text-with-line{
     display: flex; /* Use flexbox to align text and line */
     align-items: center; /* Align items vertically */
     justify-content: flex-start; /* Align text to the left */
   }
 
-  .text-with-line::after {
+  .text-with-line::after{
     content: ''; /* The content of ::after is empty, used to create the line */
     /* flex-grow: 1; Allow the line to take up the remaining space */
     width: 30%;
