@@ -330,3 +330,11 @@ input[type="range"]::-ms-thumb{
 .verticalLine {
     border-left: thick solid #ff0000;
 } */
+
+.skillone{
+    float: left;
+}
+
+.skilltwo{
+    float: right;
+}
