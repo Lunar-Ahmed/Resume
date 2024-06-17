@@ -165,7 +165,7 @@ img {
 
     .progress-bar, progress-one {
         width: 50%;
-        height: 12px;
+        height: 10px;
         background-color: green;
         /* border-radius: 10px; */
         color: aqua;
@@ -173,6 +173,23 @@ img {
       }
     
 }
+
+.progresss{
+    width: 50%;
+    /* border-radius: 10px; */
+    margin-right: 45px;
+
+    .progresss-bar, .progress-one {
+        width: 50%;
+        height: 10px;
+        background-color: green;
+        /* border-radius: 10px; */
+        color: aqua;
+        /* border-radius: 10px; */
+      }
+}
+
+
 /*-------SIDE BAR ENDS------*/
 
 /*-------MAIN CONTENT------*/
