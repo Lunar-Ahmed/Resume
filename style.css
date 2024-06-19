@@ -1,6 +1,10 @@
 body{
     background: black;
     color:aliceblue; 
+
+}
+.resume{
+    height: 200%;
 }
 
 /*-------MENU BAR------*/
@@ -275,7 +279,7 @@ img {
     margin-left: -3px; */
 
     position: absolute;
-    height: 200%;
+    height: 170%;
     margin-top: 20px;
     left: 30%;
     margin-left: -3px;
