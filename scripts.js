@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis corrupti esse cupiditate, porro consequatur aperiam libero quibusdam dolorem nulla facere? Aspernatur, sapiente nesciunt ratione alias reiciendis ipsum ullam consequatur exercitationem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis corrupti esse cupiditate, porro consequatur aperiam libero quibusdam dolorem nulla facere? Aspernatur, sapiente nesciunt ratione alias reiciendis ipsum ullam consequatur exercitationem.'
-var speed = 40;
+var speed = 50;
 
 function typeWriter() {
     if (i < txt.length) {
