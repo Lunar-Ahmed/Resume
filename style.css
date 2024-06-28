@@ -322,7 +322,7 @@ img {
   .text-with-line::after{
     content: ''; /* The content of ::after is empty, used to create the line */
     /* flex-grow: 1; Allow the line to take up the remaining space */
-    width: 30%;
+    width: 50%;
     margin-left: 0.5rem; /* Space between the text and the line */
     height: 2px; /* Thickness of the line */
     background-color: deeppink; /* Color of the line */
